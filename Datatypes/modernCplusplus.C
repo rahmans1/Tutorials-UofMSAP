@@ -4,7 +4,7 @@ void printvalues(int i) {
 }
 
 void printValues (double i) {
-     std:: count << i << std::endl;
+     std::cout << i << std::endl;
      return;          
 }
 
