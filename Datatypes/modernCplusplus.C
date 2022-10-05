@@ -19,5 +19,12 @@ int main(){
   printvalues(number_of_students); //number of students in class
   printValues(number_of_chairs); //printing the number of chairs
 
+  double temperatureNaz[31]; //temperature over a month in a classroom 
+  //temperatureNaz[0]=23;
+  //temperatureNaz[1]=34;
+for (int i-0; i<31; i++){
+temperatureNaz[i]=rand()%10+20;
+std::cout<<"the temperature on day"<<i<<"is"<<temperatureNaz[i]<<std<<endl;
+}
 return 0; 
 }
