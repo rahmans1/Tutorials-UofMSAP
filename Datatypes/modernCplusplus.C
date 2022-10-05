@@ -19,15 +19,16 @@ int main(){
   printvalues(number_of_students); //number of students in class
   printValues(number_of_chairs); //printing the number of chairs
 
-  
+ 
+  double temperatureNaz[31]; //temperature over a month in a classroom 
   double temperature[31]; // temperature over a month in a classroom
-  for (int i=0; i< 31; i++) 
-  {
+  for (int i=0; i<31; i++){
+    temperatureNaz[i]=rand()%10+20;
     temperature[i] = rand() %10 + 20;
-    // Generates random number between 20 and 30. the first parameter is (30-20)=10.the second parameter is 20.
-    
-    std::cout<< "The temperature on each day"<<i<<"is"<< temperature[i] << std::endl;
-    }
-  
+    std::cout<<"the temperature on day"<<i<<"is"<<temperatureNaz[i]<<std<<endl;
+    std::cout<<"the temperature on day"<<i<<"is"<<temperature[i]<<std<<endl;
+  }
+
+ 
 return 0; 
 }
