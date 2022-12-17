@@ -22,11 +22,14 @@ int main(){
  
   double temperatureNaz[31]; //temperature over a month in a classroom 
   double temperature[31]; // temperature over a month in a classroom
+  std::vector<int> climate_vector;
   for (int i=0; i<31; i++){
     temperatureNaz[i]=rand()%10+20;
     temperature[i] = rand() %10 + 20;
+    temp_vector.push_back(rand()%10+20);
     std::cout<<"the temperature on day"<<i<<"is"<<temperatureNaz[i]<<std<<endl;
     std::cout<<"the temperature on day"<<i<<"is"<<temperature[i]<<std<<endl;
+    std::cout<<"the temperature on day"<<i<<"from vector is"<<climate_vector[i]::std<<endl;
   }
 
  
