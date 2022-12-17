@@ -1,3 +1,5 @@
+#include <iostream>
+#include <vector>
 void printvalues(int i) {
   std::cout<<i<<std::endl;  
   return;
