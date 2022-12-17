@@ -29,7 +29,7 @@ int main(){
     tempp_vector.push_back(rand()%10+20);
     std::cout<<"the temperature on day"<<i<<"is"<<temperatureNaz[i]<<std::<<endl;
     std::cout<<"the temperature on day"<<i<<"is"<<temperature[i]<<std::<<endl;
-    std::cout<<"the temperature on day"<<i<<"from vector is"<<temp_direction[i];
+    std::cout<<"the temperature on day"<<i<<"from vector is"<<temp_direction[i]<<std::endl;
   }
 
  
